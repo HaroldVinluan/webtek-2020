@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.center-justified{
+	text-align: justify;
+	margin: 0 auto;
+	width: 75em;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/matrix.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+body{
+	text-align: center;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 60%;
+	left: 50%;
+
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #696969;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #696969;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.authors{
+	text-align: center;
+}
+
+.authorList{
+	text-align: center;
+}
+
+.maq{
+	border-radius: 50%;
+	max-width: 25%;
+	max-height: 25%;
+}
+
+.Robotics{
+	border-radius: 50%;
+	max-width: 25%;
+	max-height: 25%;
+}
+
+.Firing{
+	border-radius: 50%;
+	max-width: 25%;
+	max-height: 25%;
+}
+
+.skills h1{
+    animation: type 3s steps(45);
+    overflow:hidden;
+    white-space:nowrap;
+    border-right:4px solid black;
+    width: 46ch;
+    font-size: 40px;
+}
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width: 45ch;
+    }
+}
+
+.skills p{
+    font-size: 50px;
+}
+
